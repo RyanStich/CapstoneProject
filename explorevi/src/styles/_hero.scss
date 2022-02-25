@@ -1,0 +1,59 @@
+.hero-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 100px;
+  min-height: 100vh;
+  width: 100%;
+  padding-left: 256px;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../images/vii.jpg);
+  background-position: center;
+  background-size: cover;
+  object-fit: contain;
+  background-color: orange;
+  overflow-y: hidden;
+
+  h1 {
+    color: white;
+    font-size: 80px;
+    font-family: cubano, sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-style: normal;
+  }
+  p {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 21px;
+    text-align: center;
+    width: 70%;
+    margin: 30px 0px;
+  }
+
+  button {
+    cursor: pointer;
+    width: 180px;
+    margin: 0px 50px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+  }
+
+  .main_cta {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: medium;
+    font-size: 21px;
+    background: #1891f6;
+  }
+
+  .secondary_cta {
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: medium;
+    font-size: 21px;
+    background: #ffffff;
+  }
+}
